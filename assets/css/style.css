@@ -1,3 +1,7 @@
+/* CSS has been reorganized to follow basic flow of the HTML that it is linked with 
+to make it easier to read */
+/* font family was applied to all aspects and cutting out extra lines of code */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -47,10 +51,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +58,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -75,6 +79,69 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+ .content img{
+    max-height: 200px;
+}
+/* old consolidated code */
+/* .search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+} */ 
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* .online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+/* .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* old consolidated code */
+/* .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
 
 .benefits {
     margin-right: 20px;
@@ -148,68 +215,8 @@ h3 {
     max-width: 150px;
 } */
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-/* .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
 
-/* .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
- .content img{
-    max-height: 200px;
-}
-/* old consolidated code */
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */ 
-
-.content h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* old consolidated code */
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 .footer {
     padding: 30px;
@@ -218,6 +225,6 @@ h3 {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
