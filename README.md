@@ -19,9 +19,11 @@
 - Edited by Mason Davis
 
 ## summary
-This repository contains the code responsible for the website of the Marketing agency Horiseon. It also holds all the images and subsiquent formatting. Though this repository is home to this code it did not orginate here, the credit for this code goes to an unnammed programmer. Everything done to the code was only to edit the formating no functionallity was changed.
+This repository contains the code responsible for the website of the Marketing agency Horiseon. It also holds all the images and subsiquent formatting. Though this repository is home to this code it did not orginate here, the credit for this code goes to an unnammed programmer. Everything done to the code was only to edit the formating no functionallity was changed aside from some minor bug fixes.
 
 ## Code Snippet
+This is a snippet about the alterations I made to the nav section of the code. This was changed to improve to readability of the code. 
+
 ```html
 <nav>
     <ul>
